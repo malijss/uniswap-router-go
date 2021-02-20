@@ -25,7 +25,7 @@ const privateKey string = ""
 
 func main() {
 
-	//inputAmount in from token in app.uniswap.com
+	//inputAmount in from token in https://app.uniswap.org/#/swap
 	const inputAmount = 1
 
 	tokenMap := make(map[string]Token)
