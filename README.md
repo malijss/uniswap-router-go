@@ -3,6 +3,9 @@ load Uniswap V2: Router 2 contract in go
 
   #example
   
+	//enter your private key of infura
+	const privateKey string = ""
+
 	tokenMap := make(map[string]Token)
 	tokenMap["WETH"] = Token{"WETH", "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", 18}
 	tokenMap["DEA"] = Token{"DEA", "0x80aB141F324C3d6F2b18b030f1C4E95d4d658778", 18}
@@ -27,6 +30,6 @@ load Uniswap V2: Router 2 contract in go
 #output 
 
     uniswap contract is loaded
-    201.504389
+    1 DEA is 203.552135 USDC
   
   

@@ -70,7 +70,7 @@ func main() {
 	//convert amountOut fromWei
 	outputAmountDecimal := new(big.Float).Quo(outputAmount, big.NewFloat(math.Pow10(routes[len(routes)-1].decimal)))
 
-	fmt.Println(outputAmountDecimal)
+	fmt.Println(inputAmount, routes[0].symbol, "is", outputAmountDecimal, routes[len(routes)-1].symbol)
 }
 
 func getPaths(routes []Token) []common.Address {
