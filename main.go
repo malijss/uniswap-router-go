@@ -20,7 +20,7 @@ type Token struct {
 	decimal int
 }
 
-//enter your private key of infuera
+//enter your private key of infura
 const privateKey string = ""
 
 func main() {
