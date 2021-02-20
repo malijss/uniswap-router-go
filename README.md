@@ -5,7 +5,7 @@ load Uniswap V2: Router 2 contract in go
 
   #example
   
-	//enter your private key of infura
+	//enter your privatekey of infura
 	const privateKey string = ""
 
 	tokenMap := make(map[string]Token)
